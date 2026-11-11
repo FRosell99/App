@@ -23,9 +23,17 @@
   <ItemGroup>
     <Compile Include="App.py" />
     <Compile Include="app_poligono.py" />
+    <Compile Include="poligono_calculos.py" />
+    <Compile Include="poligono_reporte.py" />
+    <Compile Include="tests\test_poligono_calculos.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="tests\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="README_poligono.md" />
+    <Content Include="logo_sencico.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
